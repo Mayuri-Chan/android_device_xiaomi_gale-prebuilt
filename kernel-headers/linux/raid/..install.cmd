@@ -1,0 +1,1 @@
+cmd_out/include/linux/raid/.install := /bin/sh scripts/headers_install.sh out/include/linux/raid ./include/uapi/linux/raid md_p.h md_u.h; /bin/sh scripts/headers_install.sh out/include/linux/raid ./include/generated/uapi/linux/raid ; touch out/include/linux/raid/.install

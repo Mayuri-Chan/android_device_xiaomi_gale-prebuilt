@@ -1,0 +1,1 @@
+cmd_out/include/misc/.install := /bin/sh scripts/headers_install.sh out/include/misc ./include/uapi/misc cxl.h ocxl.h; /bin/sh scripts/headers_install.sh out/include/misc ./include/generated/uapi/misc ; touch out/include/misc/.install

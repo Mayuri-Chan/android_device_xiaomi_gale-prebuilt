@@ -1,0 +1,1 @@
+cmd_out/include/xen/.install := /bin/sh scripts/headers_install.sh out/include/xen ./include/uapi/xen evtchn.h gntalloc.h gntdev.h privcmd.h; /bin/sh scripts/headers_install.sh out/include/xen ./include/generated/uapi/xen ; touch out/include/xen/.install
