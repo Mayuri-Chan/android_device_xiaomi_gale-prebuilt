@@ -86,6 +86,9 @@ struct in_addr {
 	__be32	s_addr;
 };
 #endif
+#ifndef in_addr_t
+typedef uint32_t in_addr_t;
+#endif
 
 #define IP_TOS		1
 #define IP_TTL		2
