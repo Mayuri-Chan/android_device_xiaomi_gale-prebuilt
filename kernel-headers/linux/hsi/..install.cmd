@@ -1,1 +1,0 @@
-cmd_out/include/linux/hsi/.install := /bin/sh scripts/headers_install.sh out/include/linux/hsi ./include/uapi/linux/hsi cs-protocol.h hsi_char.h; /bin/sh scripts/headers_install.sh out/include/linux/hsi ./include/generated/uapi/linux/hsi ; touch out/include/linux/hsi/.install

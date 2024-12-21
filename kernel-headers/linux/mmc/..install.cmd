@@ -1,1 +1,0 @@
-cmd_out/include/linux/mmc/.install := /bin/sh scripts/headers_install.sh out/include/linux/mmc ./include/uapi/linux/mmc ioctl.h; /bin/sh scripts/headers_install.sh out/include/linux/mmc ./include/generated/uapi/linux/mmc ; touch out/include/linux/mmc/.install

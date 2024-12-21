@@ -1,1 +1,0 @@
-cmd_out/include/linux/byteorder/.install := /bin/sh scripts/headers_install.sh out/include/linux/byteorder ./include/uapi/linux/byteorder big_endian.h little_endian.h; /bin/sh scripts/headers_install.sh out/include/linux/byteorder ./include/generated/uapi/linux/byteorder ; touch out/include/linux/byteorder/.install
